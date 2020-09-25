@@ -1,4 +1,4 @@
-package surocoder.librocraft.main.block.tileentity;
+package sorucoder.librocraft.main.block.tileentity;
 
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.ISidedInventory;
@@ -19,7 +19,7 @@ import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
-import surocoder.librocraft.main.inti.ModBlocks;
+import sorucoder.librocraft.main.inti.ModBlocks;
 
 import javax.annotation.Nullable;
 import java.util.stream.IntStream;

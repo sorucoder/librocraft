@@ -1,4 +1,4 @@
-package surocoder.librocraft.main.inti;
+package sorucoder.librocraft.main.inti;
 
 import net.minecraft.block.Block;
 import net.minecraft.tileentity.TileEntityType;
@@ -7,9 +7,9 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.ObjectHolder;
-import surocoder.librocraft.main.LibroCraft;
-import surocoder.librocraft.main.block.ArmorStandBlock;
-import surocoder.librocraft.main.block.tileentity.ArmorStandTileEntity;
+import sorucoder.librocraft.main.block.ArmorStandBlock;
+import sorucoder.librocraft.main.block.tileentity.ArmorStandTileEntity;
+import sorucoder.librocraft.main.LibroCraft;
 
 @ObjectHolder(LibroCraft.MOD_ID)
 public class ModBlocks {

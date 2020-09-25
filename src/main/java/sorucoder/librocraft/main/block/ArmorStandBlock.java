@@ -1,4 +1,4 @@
-package surocoder.librocraft.main.block;
+package sorucoder.librocraft.main.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -25,7 +25,7 @@ import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootContext;
-import surocoder.librocraft.main.block.tileentity.ArmorStandTileEntity;
+import sorucoder.librocraft.main.block.tileentity.ArmorStandTileEntity;
 
 import java.util.Collections;
 import java.util.List;

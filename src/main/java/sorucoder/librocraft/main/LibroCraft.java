@@ -1,4 +1,4 @@
-package surocoder.librocraft.main;
+package sorucoder.librocraft.main;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
