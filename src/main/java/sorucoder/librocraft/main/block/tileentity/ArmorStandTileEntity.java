@@ -19,7 +19,7 @@ import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
-import sorucoder.librocraft.main.inti.ModBlocks;
+import sorucoder.librocraft.main.inti.ModTileEntities;
 
 import javax.annotation.Nullable;
 import java.util.stream.IntStream;
@@ -29,7 +29,7 @@ public class ArmorStandTileEntity extends LockableLootTileEntity implements ISid
         private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(4, ItemStack.EMPTY);
 
         public ArmorStandTileEntity() {
-            super(ModBlocks.ARMOR_STAND_TILE_ENTITY);
+            super(ModTileEntities.ARMOR_STAND_TILE_ENTITY.get());
         }
 
         @Override
@@ -149,10 +149,6 @@ public class ArmorStandTileEntity extends LockableLootTileEntity implements ISid
             for (LazyOptional<? extends IItemHandler> handler : handlers)
                 handler.invalidate();
         }
-        public boolean getIsBottomStand() {
-            return true;
-        }
-
 
 
     }
